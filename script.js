@@ -31,8 +31,11 @@ function addData() {
 }
 
 function removeFailedStudent() {
-  arr = arr.filter(el => el.marks >= 50);
-  console.log(arr);
+  var NArr=arr.filter(remove);
+  function remove(arr){
+    return arr.marks >= 50;
+  }
+  console.log(NArr);
   //Write your code here, just console.log
 }
 
