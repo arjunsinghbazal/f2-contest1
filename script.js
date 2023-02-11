@@ -38,9 +38,9 @@ function removeFailedStudent() {
 
 function concatenateArray() {
   let nArr = [
-    {id: 4, name: "Ajju", age: 22, marks: 60},
-    {id: 5, name: "Munna", age: 23, marks: 40},
-    {id: 6, name: "raja", age: 24, marks: 70}
+    {id: 5, name: "Ajju", age: "22", marks: 60},
+    {id: 6, name: "Munna", age: "23", marks: 40},
+    {id: 7, name: "raja", age: "24", marks: 70}
   ];
   let concatenat = arr.concat(nArr);
   console.log(concatenat);
